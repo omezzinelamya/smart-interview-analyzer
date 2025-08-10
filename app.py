@@ -3,7 +3,6 @@ import requests
 from streamlit_lottie import st_lottie
 from modules import download_youtube_video, save_uploaded_video, transcribe_video, match_candidate
 
-# Load Lottie animation JSON from URL
 def load_lottie_url(url):
     r = requests.get(url)
     if r.status_code != 200:
