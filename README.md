@@ -19,6 +19,7 @@ An AI-powered web application that analyzes interview videos, transcribes conten
 - **Whisper / Speech-to-Text** (Transcription)
 
 ## 📂 Project Structure
+
 ├── app.py # Main Streamlit app
 ├── modules/
 │ ├── analysis.py # Candidate matching logic
@@ -35,18 +36,19 @@ An AI-powered web application that analyzes interview videos, transcribes conten
 ```bash
 git clone https://github.com/omezzinelamya/smart-interview-analyzer.git
 cd smart-interview-analyzer
-
+```
 2️⃣ Create a virtual environment & install dependencies
 ```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 pip install -r requirements.txt
-
+```
 3️⃣ Add your API keys in .env
 ```bash
 GOOGLE_API_KEY=your_google_gemini_key
-
+```
 4️⃣ Run the app
 ```bash
 streamlit run app.py
+```
