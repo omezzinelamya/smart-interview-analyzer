@@ -28,6 +28,7 @@ An AI-powered web application that analyzes interview videos, transcribes conten
 ├── requirements.txt
 └── README.md
 
+
 ## 🚀 How to Run
 
 1️⃣ Clone the repository
